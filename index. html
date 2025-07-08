@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Prediksi Angka</title>
+</head>
+<body style="font-family:sans-serif; padding:20px;">
+  <h2>🔮 Prediksi Angka</h2>
+  <input type="text" id="inputAngka" placeholder="Masukkan angka (contoh: 1234)">
+  <button onclick="prediksi()">🔍 Prediksi</button>
+  <p id="hasil"></p>
+
+  <script>
+    function prediksi() {
+      const val = document.getElementById("inputAngka").value;
+      document.getElementById("hasil").innerText = "Hasil: " + val;
+    }
+  </script>
+</body>
+</html>
